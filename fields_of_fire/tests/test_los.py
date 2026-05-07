@@ -65,6 +65,14 @@ def test_in_weapon_range():
     assert not los.in_weapon_range("VL", 4)
 
 
+def test_range_between_with_staging_returns_minus_one():
+    """Regression: range_between must not crash on the 'staging' string."""
+    assert los.range_between("staging", (1, 1)) == -1
+    assert los.range_between((1, 1), "staging") == -1
+    assert los.range_between("staging", "staging") == -1
+    assert los.step_dir("staging", (1, 1)) is None
+
+
 def test_max_range_three():
     s = _state()
     # Distance > 3 should fail even on white borders
