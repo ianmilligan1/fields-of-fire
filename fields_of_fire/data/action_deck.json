@@ -1,0 +1,2345 @@
+{
+  "_comment": "60-card synthesized Action Deck. Each card carries five layers of information per FOF 3rd Ed \u00a72.8: activated/initiative command numbers, action attempt icons, combat resolution column, hit effect by experience, and random number. RULEBOOK AMBIGUITY: GMT does not publish per-card data; this distribution is a calibrated synthesis intended to feel like the published deck.",
+  "cards": [
+    {
+      "number": 1,
+      "activated_cmd": 6,
+      "initiative_cmd": 0,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "PIN",
+        "0": "MISS",
+        "1": "MISS",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "PA",
+        "line": "PF",
+        "green": "CP"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": true,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": -2,
+      "random_number": 8
+    },
+    {
+      "number": 2,
+      "activated_cmd": 2,
+      "initiative_cmd": 1,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "PIN",
+        "1": "PIN",
+        "2": "PIN",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "FA",
+        "line": "FF",
+        "green": "PC"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": true,
+        "cover": true,
+        "rally": false,
+        "crosshairs": true,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": -1,
+      "random_number": 7
+    },
+    {
+      "number": 3,
+      "activated_cmd": 6,
+      "initiative_cmd": 1,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "PIN",
+        "1": "PIN",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "FP",
+        "line": "FL",
+        "green": "PC"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": true,
+        "cover": false,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": true,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 0,
+      "random_number": 9
+    },
+    {
+      "number": 4,
+      "activated_cmd": 3,
+      "initiative_cmd": 1,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "HIT",
+        "1": "PIN",
+        "2": "PIN",
+        "3": "PIN",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "FA",
+        "line": "LF",
+        "green": "FL"
+      },
+      "icons": {
+        "contact": true,
+        "spotted": false,
+        "cover": false,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": true
+      },
+      "at_modifier": 0,
+      "random_number": 8
+    },
+    {
+      "number": 5,
+      "activated_cmd": 2,
+      "initiative_cmd": 0,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "HIT",
+        "1": "PIN",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "FF",
+        "line": "LA",
+        "green": "PF"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": false,
+        "rally": true,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 0,
+      "random_number": 5
+    },
+    {
+      "number": 6,
+      "activated_cmd": 2,
+      "initiative_cmd": 1,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "PIN",
+        "-1": "PIN",
+        "0": "MISS",
+        "1": "MISS",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "FA",
+        "line": "LL",
+        "green": "CC"
+      },
+      "icons": {
+        "contact": true,
+        "spotted": false,
+        "cover": false,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 2,
+      "random_number": 7
+    },
+    {
+      "number": 7,
+      "activated_cmd": 6,
+      "initiative_cmd": 1,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "PIN",
+        "-1": "PIN",
+        "0": "PIN",
+        "1": "MISS",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "FA",
+        "line": "LF",
+        "green": "FF"
+      },
+      "icons": {
+        "contact": true,
+        "spotted": false,
+        "cover": true,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": -1,
+      "random_number": 1
+    },
+    {
+      "number": 8,
+      "activated_cmd": 4,
+      "initiative_cmd": 0,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "PIN",
+        "1": "PIN",
+        "2": "PIN",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "FF",
+        "line": "PF",
+        "green": "PF"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": true,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": true,
+        "infiltrate": false,
+        "burst": true,
+        "burst3": false,
+        "short": false,
+        "jam": true,
+        "hq_event": true
+      },
+      "at_modifier": 1,
+      "random_number": 3
+    },
+    {
+      "number": 9,
+      "activated_cmd": 4,
+      "initiative_cmd": 3,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "PIN",
+        "0": "PIN",
+        "1": "PIN",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "PA",
+        "line": "FC",
+        "green": "LC"
+      },
+      "icons": {
+        "contact": true,
+        "spotted": false,
+        "cover": false,
+        "rally": true,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 2,
+      "random_number": 2
+    },
+    {
+      "number": 10,
+      "activated_cmd": 3,
+      "initiative_cmd": 0,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "PIN",
+        "-1": "PIN",
+        "0": "MISS",
+        "1": "MISS",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "AF",
+        "line": "AC",
+        "green": "PL"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": true,
+        "cover": false,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 0,
+      "random_number": 9
+    },
+    {
+      "number": 11,
+      "activated_cmd": 3,
+      "initiative_cmd": 1,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "HIT",
+        "1": "PIN",
+        "2": "PIN",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "FP",
+        "line": "PF",
+        "green": "CC"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": false,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": true,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 0,
+      "random_number": 7
+    },
+    {
+      "number": 12,
+      "activated_cmd": 4,
+      "initiative_cmd": 0,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "PIN",
+        "0": "PIN",
+        "1": "MISS",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "AF",
+        "line": "FC",
+        "green": "LF"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": false,
+        "rally": true,
+        "crosshairs": false,
+        "grenade": true,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 2,
+      "random_number": 5
+    },
+    {
+      "number": 13,
+      "activated_cmd": 3,
+      "initiative_cmd": 2,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "PIN",
+        "0": "MISS",
+        "1": "MISS",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "PF",
+        "line": "LA",
+        "green": "PC"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": false,
+        "rally": false,
+        "crosshairs": true,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": true,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 0,
+      "random_number": 1
+    },
+    {
+      "number": 14,
+      "activated_cmd": 6,
+      "initiative_cmd": 1,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "PIN",
+        "0": "PIN",
+        "1": "PIN",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "FA",
+        "line": "LL",
+        "green": "CF"
+      },
+      "icons": {
+        "contact": true,
+        "spotted": false,
+        "cover": false,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 0,
+      "random_number": 8
+    },
+    {
+      "number": 15,
+      "activated_cmd": 2,
+      "initiative_cmd": 3,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "PIN",
+        "1": "PIN",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "LL",
+        "line": "FF",
+        "green": "LF"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": true,
+        "cover": false,
+        "rally": false,
+        "crosshairs": true,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": true,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 0,
+      "random_number": 8
+    },
+    {
+      "number": 16,
+      "activated_cmd": 5,
+      "initiative_cmd": 2,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "PIN",
+        "0": "PIN",
+        "1": "PIN",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "LA",
+        "line": "PF",
+        "green": "LL"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": false,
+        "rally": true,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": -1,
+      "random_number": 1
+    },
+    {
+      "number": 17,
+      "activated_cmd": 2,
+      "initiative_cmd": 1,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "PIN",
+        "0": "PIN",
+        "1": "PIN",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "PF",
+        "line": "FC",
+        "green": "LC"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": true,
+        "cover": false,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": -1,
+      "random_number": 2
+    },
+    {
+      "number": 18,
+      "activated_cmd": 5,
+      "initiative_cmd": 1,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "PIN",
+        "0": "PIN",
+        "1": "PIN",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "AL",
+        "line": "LL",
+        "green": "CF"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": false,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": true,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": -2,
+      "random_number": 7
+    },
+    {
+      "number": 19,
+      "activated_cmd": 4,
+      "initiative_cmd": 2,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "HIT",
+        "1": "PIN",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "PF",
+        "line": "LL",
+        "green": "CF"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": false,
+        "rally": true,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 0,
+      "random_number": 2
+    },
+    {
+      "number": 20,
+      "activated_cmd": 5,
+      "initiative_cmd": 0,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "PIN",
+        "-1": "PIN",
+        "0": "PIN",
+        "1": "MISS",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "FF",
+        "line": "FL",
+        "green": "FC"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": false,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": true,
+        "burst": true,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 2,
+      "random_number": 2
+    },
+    {
+      "number": 21,
+      "activated_cmd": 5,
+      "initiative_cmd": 1,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "PIN",
+        "1": "MISS",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "PF",
+        "line": "FP",
+        "green": "LC"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": false,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": true,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 0,
+      "random_number": 6
+    },
+    {
+      "number": 22,
+      "activated_cmd": 1,
+      "initiative_cmd": 1,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "PIN",
+        "-1": "PIN",
+        "0": "MISS",
+        "1": "MISS",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "AA",
+        "line": "FF",
+        "green": "CL"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": false,
+        "rally": true,
+        "crosshairs": true,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": true,
+        "burst3": false,
+        "short": true,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 1,
+      "random_number": 6
+    },
+    {
+      "number": 23,
+      "activated_cmd": 1,
+      "initiative_cmd": 2,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "HIT",
+        "1": "PIN",
+        "2": "PIN",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "FP",
+        "line": "FF",
+        "green": "PC"
+      },
+      "icons": {
+        "contact": true,
+        "spotted": false,
+        "cover": false,
+        "rally": false,
+        "crosshairs": true,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 0,
+      "random_number": 3
+    },
+    {
+      "number": 24,
+      "activated_cmd": 5,
+      "initiative_cmd": 2,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "PIN",
+        "0": "PIN",
+        "1": "PIN",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "FA",
+        "line": "FP",
+        "green": "CL"
+      },
+      "icons": {
+        "contact": true,
+        "spotted": false,
+        "cover": true,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": true,
+        "burst": true,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": true
+      },
+      "at_modifier": 0,
+      "random_number": 2
+    },
+    {
+      "number": 25,
+      "activated_cmd": 2,
+      "initiative_cmd": 0,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "PIN",
+        "0": "MISS",
+        "1": "MISS",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "AF",
+        "line": "FP",
+        "green": "CL"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": true,
+        "cover": true,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": true,
+        "burst": false,
+        "burst3": false,
+        "short": true,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": -1,
+      "random_number": 4
+    },
+    {
+      "number": 26,
+      "activated_cmd": 3,
+      "initiative_cmd": 1,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "PIN",
+        "0": "PIN",
+        "1": "MISS",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "FA",
+        "line": "LP",
+        "green": "LC"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": false,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 0,
+      "random_number": 7
+    },
+    {
+      "number": 27,
+      "activated_cmd": 2,
+      "initiative_cmd": 1,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "PIN",
+        "0": "MISS",
+        "1": "MISS",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "FF",
+        "line": "FC",
+        "green": "PC"
+      },
+      "icons": {
+        "contact": true,
+        "spotted": false,
+        "cover": false,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": true
+      },
+      "at_modifier": 0,
+      "random_number": 4
+    },
+    {
+      "number": 28,
+      "activated_cmd": 4,
+      "initiative_cmd": 1,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "PIN",
+        "-1": "PIN",
+        "0": "PIN",
+        "1": "MISS",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "FL",
+        "line": "CL",
+        "green": "FF"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": false,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": true,
+        "burst3": true,
+        "short": false,
+        "jam": false,
+        "hq_event": true
+      },
+      "at_modifier": 0,
+      "random_number": 3
+    },
+    {
+      "number": 29,
+      "activated_cmd": 3,
+      "initiative_cmd": 1,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "PIN",
+        "0": "PIN",
+        "1": "PIN",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "PP",
+        "line": "AA",
+        "green": "LF"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": false,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": true
+      },
+      "at_modifier": -1,
+      "random_number": 6
+    },
+    {
+      "number": 30,
+      "activated_cmd": 2,
+      "initiative_cmd": 3,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "HIT",
+        "1": "PIN",
+        "2": "PIN",
+        "3": "PIN",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "PP",
+        "line": "CF",
+        "green": "CL"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": false,
+        "rally": false,
+        "crosshairs": true,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 2,
+      "random_number": 2
+    },
+    {
+      "number": 31,
+      "activated_cmd": 2,
+      "initiative_cmd": 2,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "PIN",
+        "1": "PIN",
+        "2": "PIN",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "FF",
+        "line": "LF",
+        "green": "PP"
+      },
+      "icons": {
+        "contact": true,
+        "spotted": false,
+        "cover": false,
+        "rally": true,
+        "crosshairs": true,
+        "grenade": false,
+        "infiltrate": true,
+        "burst": true,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": true
+      },
+      "at_modifier": -2,
+      "random_number": 8
+    },
+    {
+      "number": 32,
+      "activated_cmd": 6,
+      "initiative_cmd": 0,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "HIT",
+        "1": "PIN",
+        "2": "PIN",
+        "3": "PIN",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "FF",
+        "line": "CP",
+        "green": "PF"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": false,
+        "rally": true,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": -1,
+      "random_number": 9
+    },
+    {
+      "number": 33,
+      "activated_cmd": 5,
+      "initiative_cmd": 1,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "PIN",
+        "0": "PIN",
+        "1": "PIN",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "PF",
+        "line": "LL",
+        "green": "CL"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": true,
+        "cover": false,
+        "rally": false,
+        "crosshairs": true,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 2,
+      "random_number": 5
+    },
+    {
+      "number": 34,
+      "activated_cmd": 4,
+      "initiative_cmd": 0,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "PIN",
+        "1": "MISS",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "FA",
+        "line": "CF",
+        "green": "CP"
+      },
+      "icons": {
+        "contact": true,
+        "spotted": false,
+        "cover": false,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": true,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 0,
+      "random_number": 5
+    },
+    {
+      "number": 35,
+      "activated_cmd": 6,
+      "initiative_cmd": 1,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "PIN",
+        "1": "PIN",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "AL",
+        "line": "FA",
+        "green": "CF"
+      },
+      "icons": {
+        "contact": true,
+        "spotted": false,
+        "cover": true,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": true,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": true
+      },
+      "at_modifier": 0,
+      "random_number": 2
+    },
+    {
+      "number": 36,
+      "activated_cmd": 4,
+      "initiative_cmd": 1,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "HIT",
+        "1": "PIN",
+        "2": "PIN",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "PA",
+        "line": "LL",
+        "green": "LL"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": false,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": true,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": -1,
+      "random_number": 2
+    },
+    {
+      "number": 37,
+      "activated_cmd": 2,
+      "initiative_cmd": 2,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "HIT",
+        "1": "PIN",
+        "2": "PIN",
+        "3": "PIN",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "PL",
+        "line": "PF",
+        "green": "CC"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": false,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": true,
+        "burst3": false,
+        "short": true,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": -2,
+      "random_number": 8
+    },
+    {
+      "number": 38,
+      "activated_cmd": 1,
+      "initiative_cmd": 1,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "PIN",
+        "1": "PIN",
+        "2": "PIN",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "AF",
+        "line": "FA",
+        "green": "LP"
+      },
+      "icons": {
+        "contact": true,
+        "spotted": false,
+        "cover": false,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": true,
+        "infiltrate": false,
+        "burst": true,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 1,
+      "random_number": 2
+    },
+    {
+      "number": 39,
+      "activated_cmd": 3,
+      "initiative_cmd": 0,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "PIN",
+        "0": "PIN",
+        "1": "MISS",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "FF",
+        "line": "PF",
+        "green": "CC"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": true,
+        "rally": true,
+        "crosshairs": true,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": -1,
+      "random_number": 3
+    },
+    {
+      "number": 40,
+      "activated_cmd": 3,
+      "initiative_cmd": 3,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "PIN",
+        "0": "PIN",
+        "1": "PIN",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "LF",
+        "line": "LL",
+        "green": "FL"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": false,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": -1,
+      "random_number": 5
+    },
+    {
+      "number": 41,
+      "activated_cmd": 5,
+      "initiative_cmd": 2,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "PIN",
+        "-1": "PIN",
+        "0": "PIN",
+        "1": "MISS",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "FA",
+        "line": "AF",
+        "green": "FC"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": true,
+        "rally": false,
+        "crosshairs": true,
+        "grenade": false,
+        "infiltrate": true,
+        "burst": false,
+        "burst3": true,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": -1,
+      "random_number": 5
+    },
+    {
+      "number": 42,
+      "activated_cmd": 3,
+      "initiative_cmd": 2,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "HIT",
+        "1": "PIN",
+        "2": "PIN",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "FA",
+        "line": "FL",
+        "green": "FL"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": false,
+        "rally": false,
+        "crosshairs": true,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 0,
+      "random_number": 9
+    },
+    {
+      "number": 43,
+      "activated_cmd": 2,
+      "initiative_cmd": 0,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "PIN",
+        "0": "MISS",
+        "1": "MISS",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "FP",
+        "line": "PF",
+        "green": "PL"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": false,
+        "rally": true,
+        "crosshairs": true,
+        "grenade": true,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": true
+      },
+      "at_modifier": 2,
+      "random_number": 2
+    },
+    {
+      "number": 44,
+      "activated_cmd": 5,
+      "initiative_cmd": 0,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "PIN",
+        "-1": "MISS",
+        "0": "MISS",
+        "1": "MISS",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "AL",
+        "line": "FF",
+        "green": "CP"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": false,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": true,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 1,
+      "random_number": 3
+    },
+    {
+      "number": 45,
+      "activated_cmd": 3,
+      "initiative_cmd": 2,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "PIN",
+        "-1": "PIN",
+        "0": "MISS",
+        "1": "MISS",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "FL",
+        "line": "LP",
+        "green": "CP"
+      },
+      "icons": {
+        "contact": true,
+        "spotted": false,
+        "cover": false,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": true,
+        "short": false,
+        "jam": false,
+        "hq_event": true
+      },
+      "at_modifier": 0,
+      "random_number": 3
+    },
+    {
+      "number": 46,
+      "activated_cmd": 3,
+      "initiative_cmd": 2,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "PIN",
+        "0": "PIN",
+        "1": "MISS",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "AA",
+        "line": "FF",
+        "green": "LP"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": true,
+        "cover": false,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": true,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": -1,
+      "random_number": 2
+    },
+    {
+      "number": 47,
+      "activated_cmd": 3,
+      "initiative_cmd": 1,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "PIN",
+        "1": "PIN",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "FP",
+        "line": "AL",
+        "green": "CF"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": false,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 2,
+      "random_number": 1
+    },
+    {
+      "number": 48,
+      "activated_cmd": 4,
+      "initiative_cmd": 3,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "HIT",
+        "1": "PIN",
+        "2": "PIN",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "PA",
+        "line": "AL",
+        "green": "CL"
+      },
+      "icons": {
+        "contact": true,
+        "spotted": false,
+        "cover": false,
+        "rally": true,
+        "crosshairs": false,
+        "grenade": true,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 0,
+      "random_number": 6
+    },
+    {
+      "number": 49,
+      "activated_cmd": 4,
+      "initiative_cmd": 1,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "PIN",
+        "1": "MISS",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "PF",
+        "line": "AP",
+        "green": "FP"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": false,
+        "rally": false,
+        "crosshairs": true,
+        "grenade": true,
+        "infiltrate": false,
+        "burst": true,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 1,
+      "random_number": 5
+    },
+    {
+      "number": 50,
+      "activated_cmd": 2,
+      "initiative_cmd": 3,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "PIN",
+        "0": "PIN",
+        "1": "PIN",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "FF",
+        "line": "FL",
+        "green": "CC"
+      },
+      "icons": {
+        "contact": true,
+        "spotted": false,
+        "cover": true,
+        "rally": true,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": -1,
+      "random_number": 9
+    },
+    {
+      "number": 51,
+      "activated_cmd": 4,
+      "initiative_cmd": 1,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "PIN",
+        "1": "MISS",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "AF",
+        "line": "LF",
+        "green": "PP"
+      },
+      "icons": {
+        "contact": true,
+        "spotted": true,
+        "cover": false,
+        "rally": false,
+        "crosshairs": true,
+        "grenade": false,
+        "infiltrate": true,
+        "burst": true,
+        "burst3": true,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 0,
+      "random_number": 8
+    },
+    {
+      "number": 52,
+      "activated_cmd": 4,
+      "initiative_cmd": 2,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "PIN",
+        "-1": "PIN",
+        "0": "PIN",
+        "1": "MISS",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "PF",
+        "line": "CL",
+        "green": "LP"
+      },
+      "icons": {
+        "contact": true,
+        "spotted": false,
+        "cover": true,
+        "rally": true,
+        "crosshairs": false,
+        "grenade": true,
+        "infiltrate": true,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": -1,
+      "random_number": 2
+    },
+    {
+      "number": 53,
+      "activated_cmd": 1,
+      "initiative_cmd": 3,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "HIT",
+        "1": "PIN",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "PA",
+        "line": "FC",
+        "green": "PC"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": false,
+        "rally": false,
+        "crosshairs": true,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 1,
+      "random_number": 2
+    },
+    {
+      "number": 54,
+      "activated_cmd": 5,
+      "initiative_cmd": 0,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "HIT",
+        "1": "PIN",
+        "2": "PIN",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "FL",
+        "line": "PA",
+        "green": "FL"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": false,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 0,
+      "random_number": 1
+    },
+    {
+      "number": 55,
+      "activated_cmd": 3,
+      "initiative_cmd": 1,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "PIN",
+        "1": "MISS",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "LA",
+        "line": "LF",
+        "green": "PC"
+      },
+      "icons": {
+        "contact": true,
+        "spotted": false,
+        "cover": true,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": true,
+        "infiltrate": false,
+        "burst": true,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": -1,
+      "random_number": 5
+    },
+    {
+      "number": 56,
+      "activated_cmd": 3,
+      "initiative_cmd": 3,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "PIN",
+        "1": "PIN",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "AA",
+        "line": "PA",
+        "green": "FL"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": true,
+        "rally": false,
+        "crosshairs": true,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": -1,
+      "random_number": 6
+    },
+    {
+      "number": 57,
+      "activated_cmd": 5,
+      "initiative_cmd": 1,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "PIN",
+        "1": "PIN",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "AP",
+        "line": "FF",
+        "green": "PF"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": false,
+        "rally": false,
+        "crosshairs": true,
+        "grenade": true,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 0,
+      "random_number": 1
+    },
+    {
+      "number": 58,
+      "activated_cmd": 2,
+      "initiative_cmd": 2,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "PIN",
+        "0": "PIN",
+        "1": "MISS",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "FP",
+        "line": "AA",
+        "green": "PP"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": true,
+        "rally": true,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": -1,
+      "random_number": 3
+    },
+    {
+      "number": 59,
+      "activated_cmd": 4,
+      "initiative_cmd": 3,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "HIT",
+        "0": "HIT",
+        "1": "PIN",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "FL",
+        "line": "LF",
+        "green": "PL"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": false,
+        "cover": false,
+        "rally": false,
+        "crosshairs": true,
+        "grenade": false,
+        "infiltrate": false,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 0,
+      "random_number": 2
+    },
+    {
+      "number": 60,
+      "activated_cmd": 2,
+      "initiative_cmd": 0,
+      "combat_resolution": {
+        "-4": "HIT",
+        "-3": "HIT",
+        "-2": "HIT",
+        "-1": "PIN",
+        "0": "PIN",
+        "1": "PIN",
+        "2": "MISS",
+        "3": "MISS",
+        "4": "MISS",
+        "5": "MISS",
+        "6": "MISS"
+      },
+      "hit_effect": {
+        "veteran": "AF",
+        "line": "LC",
+        "green": "PF"
+      },
+      "icons": {
+        "contact": false,
+        "spotted": true,
+        "cover": false,
+        "rally": false,
+        "crosshairs": false,
+        "grenade": false,
+        "infiltrate": true,
+        "burst": false,
+        "burst3": false,
+        "short": false,
+        "jam": false,
+        "hq_event": false
+      },
+      "at_modifier": 0,
+      "random_number": 4
+    }
+  ]
+}

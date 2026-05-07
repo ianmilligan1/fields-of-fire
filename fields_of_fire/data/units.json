@@ -1,0 +1,65 @@
+{
+  "_comment": "Normandy WWII US Rifle Company TO&E and breakdown chart. vof: S=Small Arms, A=Automatic, H=Heavy, G=Grenade, none=no firepower. range: P=Point Blank, C=Close, L=Long, VL=Very Long. exp: green/line/veteran. breakdown chart used by combat.py for Hit Effects.",
+  "us_company": {
+    "hqs": [
+      {"id": "CO", "name": "CO HQ", "vof": "S", "range": "C", "exp": "line", "steps": 1, "is_hq": true, "tier": "company"},
+      {"id": "1PLT", "name": "1st PLT HQ", "vof": "S", "range": "C", "exp": "line", "steps": 1, "is_hq": true, "tier": "platoon", "platoon": "1"},
+      {"id": "2PLT", "name": "2nd PLT HQ", "vof": "S", "range": "C", "exp": "veteran", "steps": 1, "is_hq": true, "tier": "platoon", "platoon": "2"},
+      {"id": "3PLT", "name": "3rd PLT HQ", "vof": "S", "range": "C", "exp": "line", "steps": 1, "is_hq": true, "tier": "platoon", "platoon": "3"},
+      {"id": "XO", "name": "CO XO", "vof": "S", "range": "C", "exp": "line", "steps": 1, "is_hq": true, "tier": "staff"},
+      {"id": "1SG", "name": "1st Sgt", "vof": "S", "range": "C", "exp": "line", "steps": 1, "is_hq": true, "tier": "staff"}
+    ],
+    "squads": [
+      {"id": "1/1", "name": "1/1 Squad", "vof": "S", "range": "C", "exp": "line", "steps": 4, "platoon": "1"},
+      {"id": "2/1", "name": "2/1 Squad", "vof": "S", "range": "C", "exp": "line", "steps": 4, "platoon": "1"},
+      {"id": "3/1", "name": "3/1 Squad", "vof": "S", "range": "C", "exp": "line", "steps": 4, "platoon": "1"},
+      {"id": "1/2", "name": "1/2 Squad", "vof": "S", "range": "C", "exp": "line", "steps": 4, "platoon": "2"},
+      {"id": "2/2", "name": "2/2 Squad", "vof": "S", "range": "C", "exp": "line", "steps": 4, "platoon": "2"},
+      {"id": "3/2", "name": "3/2 Squad", "vof": "S", "range": "C", "exp": "line", "steps": 4, "platoon": "2"},
+      {"id": "1/3", "name": "1/3 Squad", "vof": "S", "range": "C", "exp": "green", "steps": 4, "platoon": "3"},
+      {"id": "2/3", "name": "2/3 Squad", "vof": "S", "range": "C", "exp": "green", "steps": 4, "platoon": "3"},
+      {"id": "3/3", "name": "3/3 Squad", "vof": "S", "range": "C", "exp": "green", "steps": 4, "platoon": "3"}
+    ],
+    "weapons": [
+      {"id": "1/W/1", "name": "1st PLT LMG", "vof": "A", "range": "L", "exp": "line", "steps": 2, "platoon": "1", "weapon_type": "lmg"},
+      {"id": "1/W/2", "name": "2nd PLT LMG", "vof": "A", "range": "L", "exp": "line", "steps": 2, "platoon": "2", "weapon_type": "lmg"},
+      {"id": "1/W/3", "name": "3rd PLT LMG", "vof": "A", "range": "L", "exp": "green", "steps": 2, "platoon": "3", "weapon_type": "lmg"}
+    ],
+    "company_weapons": [
+      {"id": "MTR", "name": "Mortar Sec", "vof": "H", "range": "VL", "exp": "line", "steps": 3, "weapon_type": "mortar", "ammo": 8}
+    ],
+    "spotters": [
+      {"id": "ARTY", "name": "Arty FO", "vof": "none", "range": "VL", "exp": "veteran", "steps": 1, "is_fo": true, "fo_type": "arty"}
+    ]
+  },
+  "_breakdown_comment": "Hit Effect breakdown: maps unit_type+experience+result_letter+step_index → which LAT or named team to place. For MVP we use the standard rule: P→Paralyzed Team, L→Litter Team, F→generic Fire Team, A→generic Assault Team, C→Casualty. Named fire teams from breakdown charts are simplified to 'NAMED_FT' for HQs/weapon teams.",
+  "fire_missions": {
+    "_comment": "Per Mission 1 Normandy. HE, WP, BN. Each entry = {vof, draws (base draws for FO), draws_co/draws_plt for HQ callers}",
+    "HE": {"vof": -5, "available": 4, "draws": 3, "draws_co": 2, "draws_plt": 1},
+    "WP": {"vof": -3, "available": 2, "draws": 3, "draws_co": 2, "draws_plt": 1},
+    "BN": {"vof": -5, "available": 1, "draws": 4, "draws_co": 3, "draws_plt": 2}
+  },
+  "enemy_packages": {
+    "_comment": "Normandy German packages. open_fire: yes/no — does package exert PDF/VOF immediately on placement (8.4.3). spotted: yes/no — initial spotted status. Distance: P/C/L/VL/MAX (max LOS to triggering unit).",
+    "A": [
+      {"weight": 3, "units": [{"type": "ger_squad_a", "vof": "A", "range": "C", "exp": "line", "steps": 4, "name": "Ger Squad"}], "distance": "C", "open_fire": true, "spotted": false},
+      {"weight": 2, "units": [{"type": "ger_squad_a", "vof": "A", "range": "C", "exp": "line", "steps": 3, "name": "Ger Squad"}, {"type": "ger_lmg", "vof": "A", "range": "L", "exp": "line", "steps": 2, "name": "Ger MG42"}], "distance": "MAX", "open_fire": true, "spotted": false},
+      {"weight": 2, "units": [{"type": "ger_lmg", "vof": "A", "range": "L", "exp": "veteran", "steps": 2, "name": "Ger MG42"}], "distance": "MAX", "open_fire": true, "spotted": false},
+      {"weight": 1, "units": [{"type": "ger_sniper", "vof": "S", "range": "VL", "exp": "veteran", "steps": 1, "name": "Sniper"}], "distance": "MAX", "open_fire": true, "spotted": false, "special": "sniper"},
+      {"weight": 1, "units": [{"type": "ger_mtr_spotter", "vof": "none", "range": "VL", "exp": "veteran", "steps": 1, "name": "Mtr Spotter"}], "distance": "MAX", "open_fire": true, "spotted": false, "special": "spotter", "fire_mission_vof": -3, "fire_mission_count": 3}
+    ],
+    "B": [
+      {"weight": 3, "units": [{"type": "ger_squad_s", "vof": "S", "range": "C", "exp": "line", "steps": 3, "name": "Ger Squad"}], "distance": "C", "open_fire": true, "spotted": false},
+      {"weight": 2, "units": [{"type": "ger_squad_a", "vof": "A", "range": "C", "exp": "green", "steps": 3, "name": "Ger Squad"}], "distance": "L", "open_fire": true, "spotted": false},
+      {"weight": 2, "units": [{"type": "ger_lmg", "vof": "A", "range": "L", "exp": "line", "steps": 1, "name": "Ger MG42"}], "distance": "MAX", "open_fire": true, "spotted": false},
+      {"weight": 2, "units": [{"type": "mines", "vof": "Mines!", "name": "Mines"}], "distance": "P", "open_fire": true, "spotted": true, "special": "mines"},
+      {"weight": 1, "units": [{"type": "booby_trap", "vof": "BT", "name": "Booby Trap"}], "distance": "P", "open_fire": true, "spotted": true, "special": "booby_trap"}
+    ],
+    "C": [
+      {"weight": 3, "units": [{"type": "ger_squad_s", "vof": "S", "range": "C", "exp": "green", "steps": 2, "name": "Ger Squad"}], "distance": "C", "open_fire": true, "spotted": false},
+      {"weight": 3, "units": [{"type": "ger_lmg", "vof": "A", "range": "L", "exp": "green", "steps": 1, "name": "Ger MG42"}], "distance": "L", "open_fire": true, "spotted": false},
+      {"weight": 2, "units": [{"type": "ger_fire_team", "vof": "S", "range": "C", "exp": "green", "steps": 1, "name": "Ger Fire Team"}], "distance": "C", "open_fire": true, "spotted": true},
+      {"weight": 2, "units": [{"type": "no_contact", "vof": "none", "name": "No Contact"}], "distance": "C", "open_fire": false, "spotted": true, "special": "no_contact"}
+    ]
+  }
+}

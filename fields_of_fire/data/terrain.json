@@ -1,0 +1,113 @@
+{
+  "_comment": "Normandy WWII terrain deck. cover_high used when fire crosses dark border; cover_low when all fire is from white borders or within card. cover_potential = max basic cover markers found via Seek Cover. cover_draws = base cards drawn for Seek Cover attempt. borders: N/E/S/W; 'd' = dark (LOS-blocking), 'w' = white (LOS-passing). elevation = added levels above 1.",
+  "deck": [
+    {
+      "name": "Hedgerow",
+      "short": "HEDG",
+      "cover_high": 2,
+      "cover_low": 1,
+      "cover_potential": 2,
+      "cover_draws": 3,
+      "elevation": 0,
+      "borders": "dddd",
+      "cover_type": "+1",
+      "weight": 4
+    },
+    {
+      "name": "Bocage",
+      "short": "BOCG",
+      "cover_high": 3,
+      "cover_low": 2,
+      "cover_potential": 2,
+      "cover_draws": 3,
+      "elevation": 0,
+      "borders": "dddd",
+      "cover_type": "+1",
+      "weight": 3
+    },
+    {
+      "name": "Woods",
+      "short": "WOOD",
+      "cover_high": 2,
+      "cover_low": 2,
+      "cover_potential": 2,
+      "cover_draws": 3,
+      "elevation": 0,
+      "borders": "dddd",
+      "cover_type": "+1",
+      "weight": 3
+    },
+    {
+      "name": "Orchard",
+      "short": "ORCH",
+      "cover_high": 1,
+      "cover_low": 1,
+      "cover_potential": 1,
+      "cover_draws": 2,
+      "elevation": 0,
+      "borders": "wwww",
+      "cover_type": "+1",
+      "weight": 3
+    },
+    {
+      "name": "Open Field",
+      "short": "OPEN",
+      "cover_high": 0,
+      "cover_low": 0,
+      "cover_potential": 1,
+      "cover_draws": 1,
+      "elevation": 0,
+      "borders": "wwww",
+      "cover_type": "+1",
+      "weight": 3
+    },
+    {
+      "name": "Village",
+      "short": "VILL",
+      "cover_high": 3,
+      "cover_low": 2,
+      "cover_potential": 3,
+      "cover_draws": 3,
+      "elevation": 0,
+      "borders": "wwww",
+      "cover_type": "+2",
+      "weight": 2
+    },
+    {
+      "name": "Farm",
+      "short": "FARM",
+      "cover_high": 2,
+      "cover_low": 1,
+      "cover_potential": 2,
+      "cover_draws": 2,
+      "elevation": 0,
+      "borders": "wwww",
+      "cover_type": "+2",
+      "weight": 2
+    },
+    {
+      "name": "Hill",
+      "short": "HILL",
+      "cover_high": 0,
+      "cover_low": 0,
+      "cover_potential": 0,
+      "cover_draws": 1,
+      "elevation": 1,
+      "borders": "dddd",
+      "cover_type": "+0",
+      "weight": 1
+    },
+    {
+      "name": "Gully",
+      "short": "GULL",
+      "cover_high": 2,
+      "cover_low": 2,
+      "cover_potential": 1,
+      "cover_draws": 2,
+      "elevation": 0,
+      "borders": "wwww",
+      "cover_type": "+1",
+      "weight": 2
+    }
+  ]
+}
