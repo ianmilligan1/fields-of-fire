@@ -26,7 +26,11 @@ from .state import GameState, CardState
 
 def step_dir(a: tuple, b: tuple) -> Optional[Tuple[int, int]]:
     """Return the (dr, dc) unit step from a to b along one of the 8 rays,
-    or None if b is not on a ray from a."""
+    or None if b is not on a ray from a. Off-map positions return None."""
+    if not isinstance(a, tuple) or not isinstance(b, tuple):
+        return None
+    if len(a) != 2 or len(b) != 2:
+        return None
     dr = b[0] - a[0]
     dc = b[1] - a[1]
     if dr == 0 and dc == 0:

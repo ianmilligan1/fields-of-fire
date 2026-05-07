@@ -71,6 +71,9 @@ def _pick_unit(state: GameState, hq: Optional[Unit], action_label: str,
 
 def _pick_target_card(state: GameState, unit: Unit, action_label: str,
                       filter_fn=None) -> Optional[tuple]:
+    if unit.pos == "staging":
+        print(f"{unit.name} is in Staging — move onto the map first.")
+        return None
     candidates = []
     for pos in state.cards:
         if pos == unit.pos:
@@ -145,7 +148,7 @@ def impulse_menu(state: GameState, hq: Optional[Unit], available: int) -> int:
             if cmds.move_to_adjacent(state, hq if hq else u, u, dest):
                 spent += 1
         elif idx == 1:  # Spot
-            u = _pick_unit(state, hq, "Spot")
+            u = _pick_unit(state, hq, "Spot", lambda x: x.pos != "staging")
             if u is None:
                 continue
             target = _pick_target_card(state, u, "Spot")
@@ -156,7 +159,8 @@ def impulse_menu(state: GameState, hq: Optional[Unit], available: int) -> int:
             else:
                 spent += 1  # attempt costs even on failure
         elif idx == 2:  # Concentrate Fire
-            u = _pick_unit(state, hq, "Concentrate Fire", lambda x: x.vof not in ("none", ""))
+            u = _pick_unit(state, hq, "Concentrate Fire",
+                           lambda x: x.vof not in ("none", "") and x.pos != "staging")
             if u is None:
                 continue
             target_pos = _pick_target_card(state, u, "Concentrate Fire")
@@ -172,7 +176,7 @@ def impulse_menu(state: GameState, hq: Optional[Unit], available: int) -> int:
             cmds.attempt_concentrate_fire(state, hq if hq else u, u, ger_units[tidx])
             spent += 1
         elif idx == 3:  # Grenade
-            u = _pick_unit(state, hq, "Grenade Attack")
+            u = _pick_unit(state, hq, "Grenade Attack", lambda x: x.pos != "staging")
             if u is None:
                 continue
             target = _pick_target_card(state, u, "Grenade Attack",
@@ -182,9 +186,11 @@ def impulse_menu(state: GameState, hq: Optional[Unit], available: int) -> int:
             cmds.attempt_grenade_attack(state, hq if hq else u, u, target)
             spent += 1
         elif idx == 4:  # Call for fire
-            fos = [u for u in state.units if u.is_fo and u.side == SIDE_US and u.status != gs.STATUS_CASUALTY]
+            fos = [u for u in state.units
+                   if u.is_fo and u.side == SIDE_US
+                   and u.status != gs.STATUS_CASUALTY and u.pos != "staging"]
             if not fos:
-                print("No FO available.")
+                print("No FO on map. Move the Arty FO out of Staging first.")
                 continue
             tidx = _ask("Pick FO:", [u.name for u in fos])
             if tidx is None:
